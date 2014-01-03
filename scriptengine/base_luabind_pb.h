@@ -7,7 +7,6 @@
 
 #ifndef SCRIPTENGINE_BASE_LUABIND_PB_H_
 #define SCRIPTENGINE_BASE_LUABIND_PB_H_
-#pragma once
 
 #include "luabind/scope.hpp"
 
