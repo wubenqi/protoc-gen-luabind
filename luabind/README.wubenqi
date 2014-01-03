@@ -1,0 +1,7 @@
+1.添加enum支持（在enum.hpp）。
+2.scope.php中，添加
+		void register_begin();
+		void register_one(scope& s);
+		void register_end();
+    可以定制注册。
+3.添加int64和uint64支持（在policy.hpp）。

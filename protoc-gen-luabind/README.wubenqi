@@ -1,0 +1,14 @@
+protoc-gen-luabind运行环境配置：
+1. 安装python
+2. 下载protobuf源码
+3. 将protobuf源码里的：protobuf/python/google目录copy到当前目录
+4. 删除google/__init__.py里的内容
+5. protobuf源码里将如下两个proto文件编译成python文件
+	protobuf/src/google/protobuf/descriptor.proto ==> descriptor_pb2.py, copy到当前目录的google/protobuf/里
+	protobuf/src/google/protobuf/compiler/plugin.proto ==> plugin_pb2.py, copy到当前目录
+至此，运行环境已经配置好。
+
+使用可参考build_lua2.bat脚本
+
+	
+	
